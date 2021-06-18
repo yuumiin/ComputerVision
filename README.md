@@ -15,7 +15,7 @@
 - code
   - [histogram code](https://github.com/yuumiin/ComputerVision/blob/main/preprocessing_hist.py)  
 
-### 2. 히스토그램 이미지 분류
+### 3. 이미지 분류 (YOLO)
 - YOLO 에 사용될 이미지 데이터 추출과 labeling
 - code
   - [yolo 이미지 전처리 code](https://github.com/yuumiin/ComputerVision/blob/main/detect_contour.py)
