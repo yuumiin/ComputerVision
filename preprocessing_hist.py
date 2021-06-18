@@ -47,7 +47,6 @@ def first_video(image):
     cv2.setMouseCallback('window', onMouse)
     dst = img[150:270, 150:270]
     cv2.imshow('window',img)
-    # cv2.imshow('window1',dst)
 
 def threshold_setting():
     capture = cv2.VideoCapture(camera)
@@ -72,12 +71,12 @@ def hist(img, filename) :
     #hist데이터를 csv파일로 저장
     # hist_list= np.array(hist)
     # np.savetxt(str(filename) + '.csv', hist_list, delimiter=',', fmt='%s')
-
     plt.hist(gray.ravel(), 256, [0,256]) #grayscale의 픽셀범위: 0~255
     plt.yscale('log')
     # plt.plot(hist, color = 'r') #선으로그리는거
     # plt.title(filename)
-    plt.savefig(str(filename)+'.png')
+    plt.axis('off')
+    plt.savefig(str(filename)+'.png',bbox_inches='tight',pad_inches = 0)
     # plt.ylim(0,65000) #y축 scale맞춰줌 #yscale쓸거면 필요없음
 
 def data(count, target):
@@ -108,18 +107,17 @@ def data(count, target):
     cap.release()
     cv2.destroyAllWindows()
 
-count = 0
-target = 20  
-# 20까지!
+# count = 20
+# target = 30
+# # 20까지!
 
 # threshold_setting()
 # data(count, target)
 
-# for i in range(count,target):
+# for i in range(0,30):
 #     print(i)
 #     hist(i, i)
 #     plt.clf()
 
-# make_folder('/Users/leeyumin/Documents/GitHub/ComputerVision', '/Users/leeyumin/Desktop/train_ori', 'reja9', 'jpg', True)
-# make_folder('/Users/leeyumin/Documents/GitHub/ComputerVision', '/Users/leeyumin/Desktop/train_ori', 'reja9', 'jpg', True)
-make_folder('/Users/leeyumin/Documents/GitHub/ComputerVision', '/Users/leeyumin/Desktop/train_ori', 'reja9', 'txt', True)
+# make_folder('/Users/leeyumin/Documents/GitHub/ComputerVision', '/Users/leeyumin/Desktop/train0604_ori', 'silicon9', 'jpg', True)
+# make_folder('/Users/leeyumin/Documents/GitHub/ComputerVision', '/Users/leeyumin/Desktop/train0604', 'silicon9', 'png', True)
