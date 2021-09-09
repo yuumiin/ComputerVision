@@ -10,6 +10,7 @@
   - [실시간 접촉각 측정](https://github.com/yuumiin/ComputerVision/blob/main/contactangle.py)
   - [영상 저장](https://github.com/yuumiin/ComputerVision/blob/main/contact_angle_save.py)
 
+![그림1](https://user-images.githubusercontent.com/68880847/102986917-e8c92d80-4554-11eb-9eec-6fe201fe076b.png)
 ### 2. 히스토그램 이미지 분류
 - AI project 에서 사용될 CNN 분류에서 사용될 이미지 전처리
 - code
