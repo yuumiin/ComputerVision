@@ -9,9 +9,10 @@
 - code
   - [실시간 접촉각 측정](https://github.com/yuumiin/ComputerVision/blob/main/contactangle.py)
   - [영상 저장](https://github.com/yuumiin/ComputerVision/blob/main/contact_angle_save.py)
-- 결과 이미지
-
-<image src="https://user-images.githubusercontent.com/68880847/102986917-e8c92d80-4554-11eb-9eec-6fe201fe076b.png" width="60%">
+- 결과
+<!-- ![uploadgit](https://user-images.githubusercontent.com/68880847/133633450-d5aee80e-81bb-49b6-be1f-6417f5801499.gif) -->
+<image src="https://user-images.githubusercontent.com/68880847/133633450-d5aee80e-81bb-49b6-be1f-6417f5801499.gif" width="520">
+<!-- <image src="https://user-images.githubusercontent.com/68880847/102986917-e8c92d80-4554-11eb-9eec-6fe201fe076b.png" width="60%"> -->
 
   
 
